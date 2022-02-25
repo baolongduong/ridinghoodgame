@@ -5,6 +5,18 @@ TextureImporter:
   - first:
       213: 5315610203925316711
     second: forest-4_0
+  - first:
+      213: -5270011799907297586
+    second: forest-4_1
+  - first:
+      213: -4863445427083427578
+    second: forest-4_2
+  - first:
+      213: -2091407542867709623
+    second: forest-4_3
+  - first:
+      213: 5861795217150415981
+    second: forest-4_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,9 +110,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 283
-        height: 256
+        y: 258
+        width: 256
+        height: 384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,6 +122,90 @@ TextureImporter:
       bones: []
       spriteID: 76409613157d4c940800000000000000
       internalID: 5315610203925316711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-4_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 258
+        width: 256
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6986090382dd6b0800000000000000
+      internalID: -5270011799907297586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-4_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 386
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c136d622918cb0800000000000000
+      internalID: -4863445427083427578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-4_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 514
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413cc6abe3d9f2e0800000000000000
+      internalID: -2091407542867709623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-4_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64955061b7495150800000000000000
+      internalID: 5861795217150415981
       vertices: []
       indices: 
       edges: []
