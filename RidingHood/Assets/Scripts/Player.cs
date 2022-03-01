@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public bool grounded = true;
 
     private Rigidbody2D mybody;
-    private Animation anim;
+    private Animator anim;
 
     private bool moveLeft = false;
     private bool moveRight = false;
@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     void Awake()
     {
         mybody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
     // Start is called before the first frame update
     void Start()
@@ -46,15 +47,17 @@ public class Player : MonoBehaviour
             {
                 temp.x = 1f;
                 forceX = MoveForce;
+                anim.SetBool("isWalking", true);
             }
             else if (h < 0)
             {
                 temp.x = -1f;
                 forceX = -MoveForce;
+                anim.SetBool("isWalking", true);
             }
             else 
             {
-
+                anim.SetBool("isWalking", false);
             }
             transform.localScale = temp;
         }
@@ -66,7 +69,13 @@ public class Player : MonoBehaviour
                 grounded = false;
                 forceY = Jumpforce;
                 mybody.AddForce(new Vector2(0, forceY));
+                anim.SetBool("isJumping", true);
             }
+              
+        }
+        else
+        {
+            anim.SetBool("isJumping", false);
         }
         mybody.AddForce(new Vector2(forceX, forceY));
     }

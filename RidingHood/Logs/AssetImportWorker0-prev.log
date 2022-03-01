@@ -1,0 +1,384 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 3973 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ridinghoodgame/RidingHood
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55877
+Successfully changed project path to: D:/ridinghoodgame/RidingHood
+D:/ridinghoodgame/RidingHood
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ridinghoodgame/RidingHood/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     1986 MB
+    Driver:   22.20.16.4785
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002013 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.61 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 17.131400 ms (FindLiveObjects: 1.622900 ms CreateObjectMapping: 1.030400 ms MarkObjects: 12.359200 ms  DeleteObjects: 2.111400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/ptgame_doan/apple/pet0128_shop.png
+  artifactKey: Guid(926f2cb587f326c4f82330676b4fb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/apple/pet0128_shop.png using Guid(926f2cb587f326c4f82330676b4fb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c14b8a22716e2e7a33e77880ad2eca') in 1.169448 seconds 
+  Import took 1.283859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.292666 seconds.
+  path: Assets/Sprites/ptgame_doan/wolf/Mobile_-_Final_Sky_Cross_Summoner_-_Black_Wolf-removebg-preview (1).png
+  artifactKey: Guid(c7f66c2f953876443badd16e4e244227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/wolf/Mobile_-_Final_Sky_Cross_Summoner_-_Black_Wolf-removebg-preview (1).png using Guid(c7f66c2f953876443badd16e4e244227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51615ff9704462e75581a8025954a5d') in 1.350643 seconds 
+  Import took 1.433155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (15).png
+  artifactKey: Guid(40b9deb096cacfe4591bd6804aa460a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (15).png using Guid(40b9deb096cacfe4591bd6804aa460a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff341d87db6147124df572f16fb55f') in 0.093068 seconds 
+  Import took 0.108666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (13).png
+  artifactKey: Guid(79e89a0aeba151f47b4f7cdf2e76407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (13).png using Guid(79e89a0aeba151f47b4f7cdf2e76407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85615c1ed4261cbf8f1b097794c2e9c') in 0.122609 seconds 
+  Import took 0.177631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (9).png
+  artifactKey: Guid(77ddbd8ec20a20745a9bd9c0d02946c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (9).png using Guid(77ddbd8ec20a20745a9bd9c0d02946c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1e46d0af6d707358d51f0df8a2c185') in 0.064309 seconds 
+  Import took 0.084021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Sprites/ptgame_doan/jump/image-removebg-preview (6).png
+  artifactKey: Guid(24a9d36987a9a6646bccb64b636e0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/jump/image-removebg-preview (6).png using Guid(24a9d36987a9a6646bccb64b636e0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd412e0fa147594c9197066ebc74dc9') in 0.125800 seconds 
+  Import took 0.166352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (16).png
+  artifactKey: Guid(2387fc45b15095b44ab88dfac6a902e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (16).png using Guid(2387fc45b15095b44ab88dfac6a902e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e23ba19e3982b319dcf40646a51c8b') in 0.056887 seconds 
+  Import took 0.071241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/ptgame_doan/jump/image-removebg-preview (8).png
+  artifactKey: Guid(fb56e465f4af106428b8fcba8608d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/jump/image-removebg-preview (8).png using Guid(fb56e465f4af106428b8fcba8608d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409594b22ececec459a16ab5c7c67325') in 0.042464 seconds 
+  Import took 0.053256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (14).png
+  artifactKey: Guid(bcdd46bd86171cb4dbc9e22a083845fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbygun/image-removebg-preview (14).png using Guid(bcdd46bd86171cb4dbc9e22a083845fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84baf70c818cfa42aa24759d76bd12b') in 0.045027 seconds 
+  Import took 0.063478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (11).png
+  artifactKey: Guid(bf996436eaab7aa44936ed8d44143645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (11).png using Guid(bf996436eaab7aa44936ed8d44143645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79fb3f0a1a10ff64d0151a39930fbc4') in 0.057432 seconds 
+  Import took 0.085992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sprites/ptgame_doan/jump/image-removebg-preview (7).png
+  artifactKey: Guid(f106afb5f31a4e346bfb88daa3627346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/jump/image-removebg-preview (7).png using Guid(f106afb5f31a4e346bfb88daa3627346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2609d5d97e1f3631d7926be370dcae7d') in 0.127636 seconds 
+  Import took 0.164455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (10).png
+  artifactKey: Guid(8fa75a03ae6cf3b45847b8f4ccb9396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (10).png using Guid(8fa75a03ae6cf3b45847b8f4ccb9396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c120621c83a4dd9ce59b655299c19d') in 0.041632 seconds 
+  Import took 0.077906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (12).png
+  artifactKey: Guid(e5ab87a67fa020c4184496de8f83f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/attackbybasket/image-removebg-preview (12).png using Guid(e5ab87a67fa020c4184496de8f83f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732f854fa53d0c195a7e6984314c622') in 0.056588 seconds 
+  Import took 0.068848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042571 seconds.
+  path: Assets/Sprites/ptgame_doan/die/image-removebg-preview (4).png
+  artifactKey: Guid(e617084dfb41d514fbd34e7a1c4ad65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/die/image-removebg-preview (4).png using Guid(e617084dfb41d514fbd34e7a1c4ad65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9a1b3da55a562cd00a126e5280f3ff') in 0.032931 seconds 
+  Import took 0.050776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Sprites/ptgame_doan/die/image-removebg-preview (5).png
+  artifactKey: Guid(1e5013ff621075949bcd954146f2fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/die/image-removebg-preview (5).png using Guid(1e5013ff621075949bcd954146f2fc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0ba49cf5b1e300d15c14785163110') in 0.076029 seconds 
+  Import took 0.156653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/ptgame_doan/die/image-removebg-preview (3).png
+  artifactKey: Guid(c68eac77c363b9948b2f93ba6d31de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/die/image-removebg-preview (3).png using Guid(c68eac77c363b9948b2f93ba6d31de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6946fc68fe89dbbcef743f9cf0c28ff') in 0.042745 seconds 
+  Import took 0.061700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (3).png
+  artifactKey: Guid(6cb10abcc1e94ee44a0f7f65de0ad0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (3).png using Guid(6cb10abcc1e94ee44a0f7f65de0ad0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd759fd50fb8f048b8050ada6f6a10e6') in 0.041987 seconds 
+  Import took 0.095415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033369 seconds.
+  path: Assets/Sprites/ptgame_doan/die/image-removebg-preview (2).png
+  artifactKey: Guid(fdb20b9e98a1b17438effc84c1e5ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/die/image-removebg-preview (2).png using Guid(fdb20b9e98a1b17438effc84c1e5ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91daabea0dc4090e9fb1c363d794cbb') in 0.105802 seconds 
+  Import took 0.123440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (1).png
+  artifactKey: Guid(ca0d34a9682c9744abda08a271a6b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (1).png using Guid(ca0d34a9682c9744abda08a271a6b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324c48094c93b834086dc296b72abbf') in 0.051781 seconds 
+  Import took 0.065205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/ptgame_doan/die/image-removebg-preview (1).png
+  artifactKey: Guid(f229a6c382869b946879c4ef08d55a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/die/image-removebg-preview (1).png using Guid(f229a6c382869b946879c4ef08d55a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e604a36a7b8a1e0e3803aa63f060f8d6') in 0.084396 seconds 
+  Import took 0.105269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (2).png
+  artifactKey: Guid(c62ed3964b385cf4f959fad4115d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (2).png using Guid(c62ed3964b385cf4f959fad4115d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82a9fe984241e8f18e9375a679be4a') in 0.137347 seconds 
+  Import took 0.151904 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 5.350500 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.090200 ms MarkObjects: 4.914500 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.284185 seconds.
+  path: Assets/Sprites/ptgame_doan
+  artifactKey: Guid(d1788a9fb4961604eb527248756b212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan using Guid(d1788a9fb4961604eb527248756b212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd4337c8f1fa96e25300eb8dfdc5b54') in 0.114118 seconds 
+  Import took 0.402470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.241334 seconds.
+  path: Assets/Sprites/ptgame_doan/walk
+  artifactKey: Guid(c7cbc9e4045827f4798472875d041274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk using Guid(c7cbc9e4045827f4798472875d041274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6817c09d8e110cb630533231dddf7744') in 0.030089 seconds 
+  Import took 0.050118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.176778 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (1).png
+  artifactKey: Guid(ca0d34a9682c9744abda08a271a6b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (1).png using Guid(ca0d34a9682c9744abda08a271a6b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b534b08e8c5026beff5b2e9ff8e8ddf') in 0.042368 seconds 
+  Import took 0.143444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (3).png
+  artifactKey: Guid(6cb10abcc1e94ee44a0f7f65de0ad0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (3).png using Guid(6cb10abcc1e94ee44a0f7f65de0ad0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e12f3c050ca7ccd8305eb8e6db373a') in 0.019308 seconds 
+  Import took 0.040037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001713 seconds.
+  path: Assets/Sprites/ptgame_doan/walk/image-removebg-preview (2).png
+  artifactKey: Guid(c62ed3964b385cf4f959fad4115d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ptgame_doan/walk/image-removebg-preview (2).png using Guid(c62ed3964b385cf4f959fad4115d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9b5f42b2fc68d362395165aeeed348') in 0.036785 seconds 
+  Import took 0.060872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.513597 seconds.
+  path: Assets/Animation/walk.anim
+  artifactKey: Guid(36745aefded56fd4994d6c77e5dc841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/walk.anim using Guid(36745aefded56fd4994d6c77e5dc841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2f49e053867ffd358d4ffd1c02e35e') in 0.172615 seconds 
+  Import took 0.219452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024771 seconds.
+  path: Assets/Animation/Player.controller
+  artifactKey: Guid(ae5cf0615f4c8d04c9267aa2edbf5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player.controller using Guid(ae5cf0615f4c8d04c9267aa2edbf5f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445417835ce2e7e1a4ad9c3276ca86a3') in 0.077264 seconds 
+  Import took 0.123464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.150011 seconds.
+  path: Assets/Animation/jump.anim
+  artifactKey: Guid(40d4d9e414e4daf4e9279ea9f810c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/jump.anim using Guid(40d4d9e414e4daf4e9279ea9f810c0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b5a295cb109c54daa8390e0ea2035d') in 0.028094 seconds 
+  Import took 0.054077 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
